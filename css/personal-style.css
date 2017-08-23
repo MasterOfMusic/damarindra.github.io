@@ -1317,7 +1317,7 @@
 
 .ion-social-html5-outline:before { content: "\f4e2"; }
 
-.ion-social-instagram:before { content: "\f351"; }
+.ion-social-instagram:before { content: " \f351"; }
 
 .ion-social-instagram-outline:before { content: "\f350"; }
 

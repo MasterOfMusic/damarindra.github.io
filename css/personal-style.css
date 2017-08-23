@@ -1,10 +1,10 @@
 @font-face {
   font-family: "JustVector";
-  src: url("../fonts/JustVector_befc36341d9795c51945d4d132517a7a.eot");
-  src: url("../fonts/JustVector_befc36341d9795c51945d4d132517a7a.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/JustVector_befc36341d9795c51945d4d132517a7a.woff") format("woff"),
-       url("../fonts/JustVector_befc36341d9795c51945d4d132517a7a.ttf") format("truetype"),
-       url("../fonts/JustVector_befc36341d9795c51945d4d132517a7a.svg#JustVector") format("svg");
+  src: url("/fonts/JustVector.eot");
+  src: url("/fonts/JustVector.eot?#iefix") format("embedded-opentype"),
+       url("/fonts/JustVector.woff") format("woff"),
+       url("/fonts/JustVector.ttf") format("truetype"),
+       url("/fonts/JustVector.svg#JustVector") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "JustVector";
-    src: url("../fonts/JustVector_befc36341d9795c51945d4d132517a7a.svg#JustVector") format("svg");
+    src: url("/fonts/JustVector.svg#JustVector") format("svg");
   }
 }
 

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://damarindra.com/"/>
-  <updated>2017-08-25T06:29:16.797Z</updated>
+  <updated>2017-08-25T09:26:27.673Z</updated>
   <id>http://damarindra.com/</id>
   
   <author>
@@ -16,11 +16,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Create Player - Platformer Tutorial - Godot</title>
+    <link href="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/"/>
+    <id>http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/</id>
+    <published>2017-08-25T07:04:55.147Z</published>
+    <updated>2017-08-25T09:26:27.673Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Prepare-the-Node&quot;&gt;&lt;a href=&quot;#Prepare-the-Node&quot; class=&quot;headerlink&quot; title=&quot;Prepare the Node&quot;&gt;&lt;/a&gt;Prepare the Node&lt;/h1&gt;&lt;p&gt;Okay, now we w
+    
+    </summary>
+    
+      <category term="godot" scheme="http://damarindra.com/categories/godot/"/>
+    
+      <category term="tutorial" scheme="http://damarindra.com/categories/godot/tutorial/"/>
+    
+      <category term="tutorial_platformer" scheme="http://damarindra.com/categories/godot/tutorial/tutorial-platformer/"/>
+    
+    
+      <category term="Godot" scheme="http://damarindra.com/tags/Godot/"/>
+    
+      <category term="gamedev" scheme="http://damarindra.com/tags/gamedev/"/>
+    
+      <category term="game" scheme="http://damarindra.com/tags/game/"/>
+    
+      <category term="development" scheme="http://damarindra.com/tags/development/"/>
+    
+      <category term="platformer" scheme="http://damarindra.com/tags/platformer/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Preparation - Platformer Tutorial - Godot</title>
     <link href="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/"/>
     <id>http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/</id>
     <published>2017-08-24T14:22:08.000Z</published>
-    <updated>2017-08-25T06:29:16.797Z</updated>
+    <updated>2017-08-25T07:10:25.817Z</updated>
     
     <summary type="html">
     
@@ -52,7 +84,7 @@
     <link href="http://damarindra.com/2017/08/23/godot_why_i_choose_godot/"/>
     <id>http://damarindra.com/2017/08/23/godot_why_i_choose_godot/</id>
     <published>2017-08-23T00:56:19.000Z</published>
-    <updated>2017-08-25T03:22:38.008Z</updated>
+    <updated>2017-08-25T06:39:24.142Z</updated>
     
     <summary type="html">
     

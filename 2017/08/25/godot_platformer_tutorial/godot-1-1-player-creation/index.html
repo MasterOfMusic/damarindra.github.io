@@ -15,7 +15,7 @@
   </script>
   -->
   
-  <title>Preparation - Platformer Tutorial - Godot | Damar Indra</title>
+  <title>Create Player - Platformer Tutorial - Godot | Damar Indra</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -23,24 +23,25 @@
     <meta name="keywords" content="Godot,gamedev,game,development,platformer," />
   
 
-  <meta name="description" content="Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only cover about preparation. I’m using :  Godot Engine v2.1.3 Asset">
+  <meta name="description" content="Prepare the NodeOkay, now we will create a Player. First of all, create a new scene by click Scene menu in the top left select the New Scene. Now in new tab [empty] in the Scene View appears. Now go i">
 <meta name="keywords" content="Godot,gamedev,game,development,platformer">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Preparation - Platformer Tutorial - Godot">
-<meta property="og:url" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/index.html">
+<meta property="og:title" content="Create Player - Platformer Tutorial - Godot">
+<meta property="og:url" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/index.html">
 <meta property="og:site_name" content="Damar Indra">
-<meta property="og:description" content="Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only cover about preparation. I’m using :  Godot Engine v2.1.3 Asset">
-<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_project.jpg">
-<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/copy_asset.jpg">
-<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_node2d.jpg">
-<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/blurry.jpg">
-<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/flags.jpg">
-<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/reload.gif">
-<meta property="og:updated_time" content="2017-08-25T07:10:25.817Z">
+<meta property="og:description" content="Prepare the NodeOkay, now we will create a Player. First of all, create a new scene by click Scene menu in the top left select the New Scene. Now in new tab [empty] in the Scene View appears. Now go i">
+<meta property="og:image" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_player.gif">
+<meta property="og:image" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_sprite.gif">
+<meta property="og:image" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/manage_sprite.gif">
+<meta property="og:image" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/frame.jpg">
+<meta property="og:image" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_collision_node.gif">
+<meta property="og:image" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_collision_shape.gif">
+<meta property="og:image" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_script.gif">
+<meta property="og:updated_time" content="2017-08-25T09:26:27.673Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Preparation - Platformer Tutorial - Godot">
-<meta name="twitter:description" content="Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only cover about preparation. I’m using :  Godot Engine v2.1.3 Asset">
-<meta name="twitter:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_project.jpg">
+<meta name="twitter:title" content="Create Player - Platformer Tutorial - Godot">
+<meta name="twitter:description" content="Prepare the NodeOkay, now we will create a Player. First of all, create a new scene by click Scene menu in the top left select the New Scene. Now in new tab [empty] in the Scene View appears. Now go i">
+<meta name="twitter:image" content="http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_player.gif">
 
   
 
@@ -172,20 +173,20 @@ ga('send', 'pageview');
 
   <div id="toc" class="toc-article">
     <strong class="toc-title">Posts List</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Create-Project"><span class="toc-text">Create Project</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Manage-the-Asset-Sprite"><span class="toc-text">Manage the Asset Sprite</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Prepare-the-Node"><span class="toc-text">Prepare the Node</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Ready-to-become-Wizard"><span class="toc-text">Ready to become Wizard?</span></a></li></ol>
   </div>
 
 
 
 <div class="content content-post CENTER">
-   <article id="post-godot_platformer_tutorial/godot-1-0-preparation" class="article article-type-post" itemprop="blogPost">
+   <article id="post-godot_platformer_tutorial/godot-1-1-player-creation" class="article article-type-post" itemprop="blogPost">
   <header class="article-header">
-    <h1 class="post-title">Preparation - Platformer Tutorial - Godot</h1>
+    <h1 class="post-title">Create Player - Platformer Tutorial - Godot</h1>
 
     <div class="article-meta">
       <span>
         <i class="icon-calendar"></i>
-        <span>2017.08.24</span>
+        <span>2017.08.25</span>
       </span>
 
       
@@ -206,7 +207,7 @@ ga('send', 'pageview');
       
         <span>
           <i class="icon-comment"></i>
-          <a href="http://www.damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/#disqus_thread"></a>
+          <a href="http://www.damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/#disqus_thread"></a>
         </span>
       
 
@@ -219,27 +220,32 @@ ga('send', 'pageview');
 
   <div class="article-content">
     
-      <p>Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only cover about preparation. I’m using :</p>
-<ul>
-<li><a href="https://downloads.tuxfamily.org/godotengine/2.1.3/" target="_blank" rel="external">Godot Engine v2.1.3</a></li>
-<li><a href="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/tiles.png" title="Asset Tiles">Asset Tiles</a>
-</li>
-</ul>
-<p>For now, what you need is only 2 items. You can install Godot from Steam, or just follow this <a href="https://downloads.tuxfamily.org/godotengine/2.1.3/" target="_blank" rel="external">link</a> and download the executable file depend on your OS. You can grab the asset tile from <a href="https://opengameart.org/content/arcade-platformer-assets" target="_blank" rel="external">grafxkid in opengameart</a>, or just download directly <a href="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/tiles.png" title="here">here</a> (background color already alpha).</p>
-<h2 id="Create-Project"><a href="#Create-Project" class="headerlink" title="Create Project"></a>Create Project</h2><p>If you know how to create project skip this one, otherwise you can follow my step. Open Godot Engine, you will see Project Window, click New Project Button (on the right side), click browse to make easier, in my case is D:/Godot/V2/Platformer_Tutorial.</p>
-<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_project.jpg" alt="Create Project" title="Create Project">
-<p>If you were done, click Create button. Now open the project by double click from the project list.</p>
-<h2 id="Manage-the-Asset-Sprite"><a href="#Manage-the-Asset-Sprite" class="headerlink" title="Manage the Asset Sprite"></a>Manage the Asset Sprite</h2><p>You can copy directly from the file explorer into your project folder, then you can back into Godot Engine. Your file must be available in the FileSystem Window.</p>
-<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/copy_asset.jpg" alt="Copy Asset Tiles into Project" title="Copy Asset Tiles into Project">
-<p>Press F1 or click the 2D button in the top toolbar to show 2D view. Then on the Scene window create root now by clicking the ‘+’ button, select Node2D.</p>
-<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_node2d.jpg" alt="Create Node2D" title="Create Node2D">
-<p>After that drag and drop the tiles.png into the scene view (middle one). As you can see, the image is blurry.</p>
-<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/blurry.jpg" alt="Blurry Image" title="Blurry Image">
-<p>You can fix it by changing the flags option. Double click the tiles.png from the FileSystem window. Now go into Inspector window and change the Flags by disabling everything.</p>
-<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/flags.jpg" alt="Image Flags" title="Image Flags">
-<p>If the image on the scene still blurry, you can try by reloading the image. Still in the Inspector window, Click on the Image option - Load - select tiles.png. Now the image must be fixed.</p>
-<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/reload.gif" alt="Reload Image" title="Reload Image">
-<p>Okay, the preparation is done, you can go to the . Have Fun!!</p>
+      <h1 id="Prepare-the-Node"><a href="#Prepare-the-Node" class="headerlink" title="Prepare the Node"></a>Prepare the Node</h1><p>Okay, now we will create a Player. First of all, create a new scene by click Scene menu in the top left select the New Scene. Now in new tab [empty] in the Scene View appears. Now go into Scene Window (default at the top right), create a new KinematicBody2D node, by click ‘+’ button and search KinematicBody2D, then create. Rename it as the node as “Player”.</p>
+<img src="/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_player.gif" alt="Create KinematicBody2D" title="Create KinematicBody2D">
+<p>Make sure Player Node has been selected, then create a Sprite Node by clicking the ‘+’ button, search Sprite and create it.</p>
+<img src="/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_sprite.gif" alt="Create Sprite" title="Create Sprite">
+<p>Now we need to assign the sprite image, select the Sprite Node, go to the Inspector Window, navigate into the Texture, click the <null> button, select Load. The new window will show up, select the tiles.png</null></p>
+<img src="/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/manage_sprite.gif" alt="Manage Sprite" title="Manage Sprite">
+<p>Sprite in Godot support for the tileset, so as you can see our image is a bunch of sprites with each tile size is 16px (for the character the size is 32px). Because our image size is 320px <em> 352px, so we need to set the VFrames 10 (320 / 32 = 10) and HFrames 11 (352 / 32 = 11). Divided by 32 because the character size is 32px </em> 32px.</p>
+<p>Now save the Node by press Ctrl + S, save as Player.tscn. Now try to change the Frame by clicking the up and down button on the right side.</p>
+<img src="/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/frame.jpg" alt="Sprite Frame" title="Sprite Frame">
+<p>Doesn’t change anything?? Don’t panic, sometimes that happened. Make sure you have saved the Node, then close the Player Scene by clicking ‘x’ button at the tab Player, open again the Player.tscn from the FileSystem Window. Now try to change the Frame Value, now must be fixed.</p>
+<p>Next, create a new node by right click the Player Node, select “Add Child Node”, find the CollisionShape2D, and create it.</p>
+<img src="/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_collision_node.gif" alt="Create CollisionShape2D" title="Create CollisionShape2D">
+<p>Select the CollisionShape2D and go to the Inspector View, navigate to Shape, click the <null> button, select New RectangleShape2D. Now you can setup the collision size directly from the Scene View.</null></p>
+<img src="/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_collision_shape.gif" alt="Create CollisionShape2D Shape" title="Create CollisionShape2D Shape">
+<p>That was only the preparation, now the real challenge just BEGIN!!</p>
+<h1 id="Ready-to-become-Wizard"><a href="#Ready-to-become-Wizard" class="headerlink" title="Ready to become Wizard?"></a>Ready to become Wizard?</h1><p>Script is like the brain in human. Without a script, node can’t make a decision what should they do. In Godot, we use GDScript for the scripting language. C# support will be available in the future. GDScript is easy to learn, so don’t let yourself down now, at least try it a bit. You don’t know until you try, right? I bet when version Godot V3 released, you will love scripting GDScript inside Godot Editor, much improvement, I’ve tried it!!</p>
+<p>So, back to the topic! Select Player node, see in the inspector, scroll into deep down, you will found Script, click the <null> button, select New Script. A new window will appear, for me, I just click the create button since I don’t want to change anything here. The 2D view will automatically switch to script view.</null></p>
+<img src="/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/create_script.gif" alt="Create Script" title="Create Script">
+<p>Now add you need to write some code, follow my script from now, I will explain later.</p>
+<p>Press F6 to test it</p>
+<p>Make sure the result is same as mine, the character will fall down. If your character just stays, or different as mine, you can copy paste from the “Next time, I will try not to copy paste”.</p>
+<div class="spoiler collapsed"><div class="spoiler-title">Next time, I will try not to copy paste</div><div class="spoiler-content"><p>content</p>
+</div></div>
+<p>Now I will explain this simple code.</p>
+<p>Understand? if you come from Unity, you must be wondering about GRAVITY. The Gravity value is positive, means the character must go up, not down. Yes, I used to wonder like that, but in Godot 2D, the vector y is opposite, so the down direction is positive and up direction is negative, got it?</p>
+<p>So for today, that was enough. If you still have extra energy, follow this link. All of you are AWESOME!</p>
 <p>.</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
     
@@ -251,10 +257,10 @@ ga('send', 'pageview');
 
    
   <div class="box-prev-next clearfix">
-    <a class="show pull-left" href="/2017/08/23/godot_why_i_choose_godot/">
+    <a class="show pull-left" href="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/">
         <i class="icon icon-angle-left"></i>
     </a>
-    <a class="show pull-right" href="/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/">
+    <a class="hide pull-right" href="/">
         <i class="icon icon-angle-right"></i>
     </a>
   </div>
@@ -368,7 +374,7 @@ ga('send', 'pageview');
   <script>
     var disqus_shortname = 'damarindra';
     
-    var disqus_url = 'http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/';
+    var disqus_url = 'http://damarindra.com/2017/08/25/godot_platformer_tutorial/godot-1-1-player-creation/';
     
     (function(){
       var dsq = document.createElement('script');

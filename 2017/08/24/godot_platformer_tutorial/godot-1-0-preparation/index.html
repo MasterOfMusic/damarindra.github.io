@@ -15,25 +15,32 @@
   </script>
   -->
   
-  <title>Why I choose Godot | Damar Indra</title>
+  <title>Preparation - Platformer Tutorial - Godot | Damar Indra</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="Godot,gamedev,game,development," />
+    <meta name="keywords" content="Godot,gamedev,game,development,platformer," />
   
 
-  <meta name="description" content="How I met Godot?I do not really remember when it is, maybe January 2015 that was my first time I’ve found Godot. At that time, I’ve been joined open source community named Doscom (Dinus Open Source Co">
-<meta name="keywords" content="Godot,gamedev,game,development">
+  <meta name="description" content="Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only cover about preparation. I’m using :  Godot Engine v2.1.3 Asset">
+<meta name="keywords" content="Godot,gamedev,game,development,platformer">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Why I choose Godot">
-<meta property="og:url" content="http://damarindra.com/2017/08/23/godot_why_i_choose_godot/index.html">
+<meta property="og:title" content="Preparation - Platformer Tutorial - Godot">
+<meta property="og:url" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/index.html">
 <meta property="og:site_name" content="Damar Indra">
-<meta property="og:description" content="How I met Godot?I do not really remember when it is, maybe January 2015 that was my first time I’ve found Godot. At that time, I’ve been joined open source community named Doscom (Dinus Open Source Co">
-<meta property="og:updated_time" content="2017-08-25T03:22:38.008Z">
+<meta property="og:description" content="Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only cover about preparation. I’m using :  Godot Engine v2.1.3 Asset">
+<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_project.jpg">
+<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/copy_asset.jpg">
+<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_node2d.jpg">
+<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/blurry.jpg">
+<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/flags.jpg">
+<meta property="og:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/reload.gif">
+<meta property="og:updated_time" content="2017-08-25T06:29:16.797Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Why I choose Godot">
-<meta name="twitter:description" content="How I met Godot?I do not really remember when it is, maybe January 2015 that was my first time I’ve found Godot. At that time, I’ve been joined open source community named Doscom (Dinus Open Source Co">
+<meta name="twitter:title" content="Preparation - Platformer Tutorial - Godot">
+<meta name="twitter:description" content="Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only cover about preparation. I’m using :  Godot Engine v2.1.3 Asset">
+<meta name="twitter:image" content="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_project.jpg">
 
   
 
@@ -165,20 +172,20 @@ ga('send', 'pageview');
 
   <div id="toc" class="toc-article">
     <strong class="toc-title">Posts List</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#How-I-met-Godot"><span class="toc-text">How I met Godot?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Why-I’m-back-using-Godot"><span class="toc-text">Why I’m back using Godot?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#What-do-you-think-about-Unity-vs-Godot"><span class="toc-text">What do you think about Unity vs Godot?</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SUPPORT-GODOT"><span class="toc-text">SUPPORT GODOT</span></a>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Create-Project"><span class="toc-text">Create Project</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Manage-the-Asset-Sprite"><span class="toc-text">Manage the Asset Sprite</span></a></li></ol>
   </div>
 
 
 
 <div class="content content-post CENTER">
-   <article id="post-godot_why_i_choose_godot" class="article article-type-post" itemprop="blogPost">
+   <article id="post-godot_platformer_tutorial/godot-1-0-preparation" class="article article-type-post" itemprop="blogPost">
   <header class="article-header">
-    <h1 class="post-title">Why I choose Godot</h1>
+    <h1 class="post-title">Preparation - Platformer Tutorial - Godot</h1>
 
     <div class="article-meta">
       <span>
         <i class="icon-calendar"></i>
-        <span>2017.08.23</span>
+        <span>2017.08.24</span>
       </span>
 
       
@@ -191,7 +198,7 @@ ga('send', 'pageview');
       
   <span class="article-category">
     <i class="icon-list"></i>
-    <a class="article-category-link" href="/categories/godot/">godot</a>
+    <a class="article-category-link" href="/categories/godot/">godot</a> / <a class="article-category-link" href="/categories/godot/tutorial/">tutorial</a> / <a class="article-category-link" href="/categories/godot/tutorial/tutorial-platformer/">tutorial_platformer</a>
   </span>
 
 
@@ -199,7 +206,7 @@ ga('send', 'pageview');
       
         <span>
           <i class="icon-comment"></i>
-          <a href="http://www.damarindra.com/2017/08/23/godot_why_i_choose_godot/#disqus_thread"></a>
+          <a href="http://www.damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/#disqus_thread"></a>
         </span>
       
 
@@ -212,11 +219,27 @@ ga('send', 'pageview');
 
   <div class="article-content">
     
-      <h2 id="How-I-met-Godot"><a href="#How-I-met-Godot" class="headerlink" title="How I met Godot?"></a>How I met Godot?</h2><p>I do not really remember when it is, maybe January 2015 that was my first time I’ve found Godot. At that time, I’ve been joined open source community named Doscom (Dinus Open Source Community) and Doscom held a workshop about game development. So I’m the one who focussed on game development has a job to teaching. Because the community is open source, I need to find the open source game engine, and finally, I found out Godot. Why I chose Godot? I’m used to developing a game with Unity3D, and Godot is the similar one. Okay I will not explain more about the past, anyway you can check it <a href="https://doscom.org/blog/workshop-pembuatan-game-space-radian-dengan-godot-engine/" target="_blank" rel="external">here</a> about the event.</p>
-<h2 id="Why-I’m-back-using-Godot"><a href="#Why-I’m-back-using-Godot" class="headerlink" title="Why I’m back using Godot?"></a>Why I’m back using Godot?</h2><p>Mid 2017, I’ve decided to use Godot again, why? Without open source (Doscom), I don’t know about Game Dev. So I want to give a feedback, the only way is using godot and share what I’ve learned. I will post blogs here, and maybe videos on youtube.</p>
-<h2 id="What-do-you-think-about-Unity-vs-Godot"><a href="#What-do-you-think-about-Unity-vs-Godot" class="headerlink" title="What do you think about Unity vs Godot?"></a>What do you think about Unity vs Godot?</h2><p>Okay, mostly I’ve been developing 2D games. After I try to using Godot again, I’ve been really surprised, Godot really easy when developing 2D games, for example, the KinematicBody2D has a move function. Move function calculates and detects a collision. As far as I know, Unity doesn’t has this function, only the CharacterController on 3D has the move function. Godot also has a tilemap node, which Unity doesn’t (planned September 2017 ??). So for me, this is really helpful!! TFW, KinematicBody can get the floor (collider) velocity!! Godot, you stole my heart!!</p>
-<p>If you want to know godot more, you can search it in google, there is so many article about godot. I will recommend this one <a href="http://www.gamefromscratch.com/post/2015/01/04/A-Closer-Look-at-the-Godot-Game-Engine.aspx" target="_blank" rel="external">GameFromScratch</a></p>
-<h1 id="SUPPORT-GODOT"><a href="#SUPPORT-GODOT" class="headerlink" title="SUPPORT GODOT"></a>SUPPORT GODOT</h1><p>Don’t forget to support godot to make it good and more good!! If you can donate, you can support it via <a href="https://www.patreon.com/godotengine/posts" target="_blank" rel="external">Patreon</a>, or just one time donation via <a href="https://godotengine.org/donate" target="_blank" rel="external">Paypal</a>. Don’t worry if you can’t donate, you can support godot by using Godot for now, spread the words!!!</p>
+      <p>Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only cover about preparation. I’m using :</p>
+<ul>
+<li><a href="https://downloads.tuxfamily.org/godotengine/2.1.3/" target="_blank" rel="external">Godot Engine v2.1.3</a></li>
+<li><a href="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/tiles.png" title="Asset Tiles">Asset Tiles</a>
+</li>
+</ul>
+<p>For now, what you need is only 2 items. You can install Godot from Steam, or just follow this <a href="https://downloads.tuxfamily.org/godotengine/2.1.3/" target="_blank" rel="external">link</a> and download the executable file depend on your OS. You can grab the asset tile from <a href="https://opengameart.org/content/arcade-platformer-assets" target="_blank" rel="external">grafxkid in opengameart</a>, or just download directly <a href="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/tiles.png" title="here">here</a> (background color already alpha).</p>
+<h2 id="Create-Project"><a href="#Create-Project" class="headerlink" title="Create Project"></a>Create Project</h2><p>If you know how to create project skip this one, otherwise you can follow my step. Open Godot Engine, you will see Project Window, click New Project Button (on the right side), click browse to make easier, in my case is D:/Godot/V2/Platformer_Tutorial.</p>
+<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_project.jpg" alt="Create Project" title="Create Project">
+<p>If you were done, click Create button. Now open the project by double click from the project list.</p>
+<h2 id="Manage-the-Asset-Sprite"><a href="#Manage-the-Asset-Sprite" class="headerlink" title="Manage the Asset Sprite"></a>Manage the Asset Sprite</h2><p>You can copy directly from the file explorer into your project folder, then you can back into Godot Engine. Your file must be available in the FileSystem Window.</p>
+<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/copy_asset.jpg" alt="Copy Asset Tiles into Project" title="Copy Asset Tiles into Project">
+<p>Press F1 or click the 2D button in the top toolbar to show 2D view. Then on the Scene window create root now by clicking the ‘+’ button, select Node2D.</p>
+<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/create_node2d.jpg" alt="Create Node2D" title="Create Node2D">
+<p>After that drag and drop the tiles.png into the scene view (middle one). As you can see, the image is blurry.</p>
+<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/blurry.jpg" alt="Blurry Image" title="Blurry Image">
+<p>You can fix it by changing the flags option. Double click the tiles.png from the FileSystem window. Now go into Inspector window and change the Flags by disabling everything.</p>
+<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/flags.jpg" alt="Image Flags" title="Image Flags">
+<p>If the image on the scene still blurry, you can try by reloading the image. Still in the Inspector window, Click on the Image option - Load - select tiles.png. Now the image must be fixed.</p>
+<img src="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/reload.gif" alt="Reload Image" title="Reload Image">
+<p>Okay, the preparation is done, you can go to the next page. Have Fun!!</p>
 
     
   </div>
@@ -227,10 +250,10 @@ ga('send', 'pageview');
 
    
   <div class="box-prev-next clearfix">
-    <a class="hide pull-left" href="/">
+    <a class="show pull-left" href="/2017/08/23/godot_why_i_choose_godot/">
         <i class="icon icon-angle-left"></i>
     </a>
-    <a class="show pull-right" href="/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/">
+    <a class="hide pull-right" href="/">
         <i class="icon icon-angle-right"></i>
     </a>
   </div>
@@ -344,7 +367,7 @@ ga('send', 'pageview');
   <script>
     var disqus_shortname = 'damarindra';
     
-    var disqus_url = 'http://damarindra.com/2017/08/23/godot_why_i_choose_godot/';
+    var disqus_url = 'http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/';
     
     (function(){
       var dsq = document.createElement('script');

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Damar Indra</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://damarindra.com/"/>
+  <updated>2017-08-25T06:29:16.797Z</updated>
+  <id>http://damarindra.com/</id>
+  
+  <author>
+    <name>Damar Indra</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Preparation - Platformer Tutorial - Godot</title>
+    <link href="http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/"/>
+    <id>http://damarindra.com/2017/08/24/godot_platformer_tutorial/godot-1-0-preparation/</id>
+    <published>2017-08-24T14:22:08.000Z</published>
+    <updated>2017-08-25T06:29:16.797Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hello everyone, this is my first godot tutorial. I will explain how I can achieve platformer game in godot engine. In this section only c
+    
+    </summary>
+    
+      <category term="godot" scheme="http://damarindra.com/categories/godot/"/>
+    
+      <category term="tutorial" scheme="http://damarindra.com/categories/godot/tutorial/"/>
+    
+      <category term="tutorial_platformer" scheme="http://damarindra.com/categories/godot/tutorial/tutorial-platformer/"/>
+    
+    
+      <category term="Godot" scheme="http://damarindra.com/tags/Godot/"/>
+    
+      <category term="gamedev" scheme="http://damarindra.com/tags/gamedev/"/>
+    
+      <category term="game" scheme="http://damarindra.com/tags/game/"/>
+    
+      <category term="development" scheme="http://damarindra.com/tags/development/"/>
+    
+      <category term="platformer" scheme="http://damarindra.com/tags/platformer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Why I choose Godot</title>
+    <link href="http://damarindra.com/2017/08/23/godot_why_i_choose_godot/"/>
+    <id>http://damarindra.com/2017/08/23/godot_why_i_choose_godot/</id>
+    <published>2017-08-23T00:56:19.000Z</published>
+    <updated>2017-08-25T03:22:38.008Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;How-I-met-Godot&quot;&gt;&lt;a href=&quot;#How-I-met-Godot&quot; class=&quot;headerlink&quot; title=&quot;How I met Godot?&quot;&gt;&lt;/a&gt;How I met Godot?&lt;/h2&gt;&lt;p&gt;I do not really 
+    
+    </summary>
+    
+      <category term="godot" scheme="http://damarindra.com/categories/godot/"/>
+    
+    
+      <category term="Godot" scheme="http://damarindra.com/tags/Godot/"/>
+    
+      <category term="gamedev" scheme="http://damarindra.com/tags/gamedev/"/>
+    
+      <category term="game" scheme="http://damarindra.com/tags/game/"/>
+    
+      <category term="development" scheme="http://damarindra.com/tags/development/"/>
+    
+  </entry>
+  
+</feed>
